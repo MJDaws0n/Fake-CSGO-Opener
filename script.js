@@ -131,7 +131,8 @@ function createReelItem(item) {
     const skinName = item.name.split('|')[1]?.trim() || '';
     const rarityColor = getRarityColor(item.rarity).substring(1);
     
-    const svgImage = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Crect fill='%231b2838' width='150' height='150'/%3E%3Crect fill='%23${rarityColor}' x='20' y='40' width='110' height='70' rx='10' opacity='0.3'/%3E%3Ctext x='75' y='75' font-family='Arial' font-size='12' font-weight='bold' fill='%23${rarityColor}' text-anchor='middle'%3E${weaponName.substring(0, 10)}%3C/text%3E%3Ctext x='75' y='95' font-family='Arial' font-size='10' fill='%23c7d5e0' text-anchor='middle'%3E${skinName.substring(0, 12)}%3C/text%3E%3C/svg%3E`;
+    const svgString = `<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150'><rect fill='#1b2838' width='150' height='150'/><rect fill='#${rarityColor}' x='20' y='40' width='110' height='70' rx='10' opacity='0.3'/><text x='75' y='75' font-family='Arial' font-size='12' font-weight='bold' fill='#${rarityColor}' text-anchor='middle'>${weaponName.substring(0, 10)}</text><text x='75' y='95' font-family='Arial' font-size='10' fill='#c7d5e0' text-anchor='middle'>${skinName.substring(0, 12)}</text></svg>`;
+    const svgImage = createBase64SvgDataUri(svgString);
     
     reelItem.innerHTML = `
         <img src="${svgImage}" alt="${item.name}">
@@ -140,6 +141,12 @@ function createReelItem(item) {
     `;
     
     return reelItem;
+}
+
+// Helper function to create base64 SVG data URI
+function createBase64SvgDataUri(svgString) {
+    const base64 = btoa(svgString);
+    return `data:image/svg+xml;base64,${base64}`;
 }
 
 // Get rarity color
@@ -220,7 +227,8 @@ function showResult(item) {
     const skinName = item.name.split('|')[1]?.trim() || '';
     const rarityColor = getRarityColor(item.rarity).substring(1);
     
-    const svgImage = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Crect fill='%231b2838' width='300' height='300'/%3E%3Crect fill='%23${rarityColor}' x='40' y='80' width='220' height='140' rx='20' opacity='0.4'/%3E%3Ctext x='150' y='140' font-family='Arial' font-size='24' font-weight='bold' fill='%23${rarityColor}' text-anchor='middle'%3E${weaponName.substring(0, 10)}%3C/text%3E%3Ctext x='150' y='170' font-family='Arial' font-size='18' fill='%23c7d5e0' text-anchor='middle'%3E${skinName.substring(0, 15)}%3C/text%3E%3Ccircle cx='150' cy='200' r='15' fill='%23${rarityColor}' opacity='0.8'/%3E%3C/svg%3E`;
+    const svgString = `<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><rect fill='#1b2838' width='300' height='300'/><rect fill='#${rarityColor}' x='40' y='80' width='220' height='140' rx='20' opacity='0.4'/><text x='150' y='140' font-family='Arial' font-size='24' font-weight='bold' fill='#${rarityColor}' text-anchor='middle'>${weaponName.substring(0, 10)}</text><text x='150' y='170' font-family='Arial' font-size='18' fill='#c7d5e0' text-anchor='middle'>${skinName.substring(0, 15)}</text><circle cx='150' cy='200' r='15' fill='#${rarityColor}' opacity='0.8'/></svg>`;
+    const svgImage = createBase64SvgDataUri(svgString);
     
     resultImage.src = svgImage;
     resultName.textContent = item.name;

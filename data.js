@@ -15,7 +15,7 @@ const cases = [
         id: 'weapon-case-1',
         name: 'CS:GO Weapon Case',
         price: 2.49,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g1" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23ff6b00"/%3E%3Cstop offset="100%25" style="stop-color:%23ff8c00"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g1)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="100" font-family="Arial" font-size="16" font-weight="bold" fill="%23fff" text-anchor="middle"%3EWeapon%3C/text%3E%3Ctext x="100" y="120" font-family="Arial" font-size="14" fill="%23fff" text-anchor="middle"%3ECase%3C/text%3E%3Ccircle cx="100" cy="140" r="6" fill="%23ffd700"/%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmY2YjAwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmY4YzAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2cxKSIgeD0iMzAiIHk9IjUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjE1Ii8+PHRleHQgeD0iMTAwIiB5PSIxMDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPldlYXBvbjwvdGV4dD48dGV4dCB4PSIxMDAiIHk9IjEyMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DYXNlPC90ZXh0PjxjaXJjbGUgY3g9IjEwMCIgY3k9IjE0MCIgcj0iNiIgZmlsbD0iI2ZmZDcwMCIvPjwvc3ZnPg==',
         items: [
             { name: 'MP9 | Hot Rod', rarity: 'Covert', price: 150.00 },
             { name: 'AK-47 | Case Hardened', rarity: 'Classified', price: 85.00 },
@@ -39,7 +39,7 @@ const cases = [
         id: 'chroma-case',
         name: 'Chroma Case',
         price: 2.99,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g2" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%234b69ff"/%3E%3Cstop offset="100%25" style="stop-color:%238847ff"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g2)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="18" font-weight="bold" fill="%23fff" text-anchor="middle"%3EChroma%3C/text%3E%3Ccircle cx="80" cy="140" r="5" fill="%23ff0000"/%3E%3Ccircle cx="100" cy="140" r="5" fill="%2300ff00"/%3E%3Ccircle cx="120" cy="140" r="5" fill="%230000ff"/%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcyIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGI2OWZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojODg0N2ZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2cyKSIgeD0iMzAiIHk9IjUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjE1Ii8+PHRleHQgeD0iMTAwIiB5PSIxMDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNocm9tYTwvdGV4dD48Y2lyY2xlIGN4PSI4MCIgY3k9IjE0MCIgcj0iNSIgZmlsbD0iI2ZmMDAwMCIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjE0MCIgcj0iNSIgZmlsbD0iIzAwZmYwMCIvPjxjaXJjbGUgY3g9IjEyMCIgY3k9IjE0MCIgcj0iNSIgZmlsbD0iIzAwMDBmZiIvPjwvc3ZnPg==',
         items: [
             { name: 'AK-47 | Fire Serpent', rarity: 'Covert', price: 450.00 },
             { name: 'M4A4 | Howl', rarity: 'Covert', price: 2500.00 },
@@ -63,7 +63,7 @@ const cases = [
         id: 'chroma-2-case',
         name: 'Chroma 2 Case',
         price: 2.75,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g3" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23d32ce6"/%3E%3Cstop offset="100%25" style="stop-color:%23eb4b4b"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g3)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="95" font-family="Arial" font-size="16" font-weight="bold" fill="%23fff" text-anchor="middle"%3EChroma 2%3C/text%3E%3Ctext x="100" y="115" font-family="Arial" font-size="12" fill="%23fff" text-anchor="middle"%3ECase%3C/text%3E%3Crect x="70" y="125" width="60" height="20" fill="%23ffd700" rx="5"/%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImczIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZDMyY2U2Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZWI0YjRiIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2czKSIgeD0iMzAiIHk9IjUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjE1Ii8+PHRleHQgeD0iMTAwIiB5PSI5NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2hyb21hIDI8L3RleHQ+PHRleHQgeD0iMTAwIiB5PSIxMTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2FzZTwvdGV4dD48cmVjdCB4PSI3MCIgeT0iMTI1IiB3aWR0aD0iNjAiIGhlaWdodD0iMjAiIGZpbGw9IiNmZmQ3MDAiIHJ4PSI1Ii8+PC9zdmc+',
         items: [
             { name: 'M4A1-S | Hyper Beast', rarity: 'Covert', price: 95.00 },
             { name: 'Galil AR | Eco', rarity: 'Classified', price: 28.00 },
@@ -87,7 +87,7 @@ const cases = [
         id: 'chroma-3-case',
         name: 'Chroma 3 Case',
         price: 2.50,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g4" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%235e98d9"/%3E%3Cstop offset="100%25" style="stop-color:%234b69ff"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g4)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="95" font-family="Arial" font-size="16" font-weight="bold" fill="%23fff" text-anchor="middle"%3EChroma 3%3C/text%3E%3Ctext x="100" y="115" font-family="Arial" font-size="12" fill="%23fff" text-anchor="middle"%3ECase%3C/text%3E%3Cpolygon points="100,125 110,145 90,145" fill="%23ffd700"/%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Imc0IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNWU5OGQ5Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGI2OWZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2c0KSIgeD0iMzAiIHk9IjUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjE1Ii8+PHRleHQgeD0iMTAwIiB5PSI5NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2hyb21hIDM8L3RleHQ+PHRleHQgeD0iMTAwIiB5PSIxMTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2FzZTwvdGV4dD48cG9seWdvbiBwb2ludHM9IjEwMCwxMjUgMTEwLDE0NSA5MCwxNDUiIGZpbGw9IiNmZmQ3MDAiLz48L3N2Zz4=',
         items: [
             { name: 'PP-Bizon | Judgement of Anubis', rarity: 'Covert', price: 75.00 },
             { name: 'M4A1-S | Chantico\'s Fire', rarity: 'Classified', price: 55.00 },
@@ -110,7 +110,7 @@ const cases = [
         id: 'gamma-case',
         name: 'Gamma Case',
         price: 3.25,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g5" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%2300ff00"/%3E%3Cstop offset="100%25" style="stop-color:%2300aa00"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g5)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="18" font-weight="bold" fill="%23000" text-anchor="middle"%3EGamma%3C/text%3E%3Ccircle cx="100" cy="135" r="10" fill="%23ffd700"/%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Imc1IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDBmZjAwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDBhYTAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2c1KSIgeD0iMzAiIHk9IjUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjE1Ii8+PHRleHQgeD0iMTAwIiB5PSIxMDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwMDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkdhbW1hPC90ZXh0PjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEzNSIgcj0iMTAiIGZpbGw9IiNmZmQ3MDAiLz48L3N2Zz4=',
         items: [
             { name: 'M4A1-S | Mecha Industries', rarity: 'Covert', price: 125.00 },
             { name: 'Glock-18 | Wasteland Rebel', rarity: 'Covert', price: 98.00 },
@@ -134,7 +134,7 @@ const cases = [
         id: 'gamma-2-case',
         name: 'Gamma 2 Case',
         price: 3.10,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g6" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%2300aa00"/%3E%3Cstop offset="100%25" style="stop-color:%23006600"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g6)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="95" font-family="Arial" font-size="16" font-weight="bold" fill="%23fff" text-anchor="middle"%3EGamma 2%3C/text%3E%3Ctext x="100" y="115" font-family="Arial" font-size="12" fill="%23fff" text-anchor="middle"%3ECase%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Imc2IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDBhYTAwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDA2NjAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2c2KSIgeD0iMzAiIHk9IjUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjE1Ii8+PHRleHQgeD0iMTAwIiB5PSI5NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+R2FtbWEgMjwvdGV4dD48dGV4dCB4PSIxMDAiIHk9IjExNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DYXNlPC90ZXh0Pjwvc3ZnPg==',
         items: [
             { name: 'AK-47 | Neon Revolution', rarity: 'Covert', price: 185.00 },
             { name: 'FAMAS | Roll Cage', rarity: 'Classified', price: 52.00 },
@@ -157,7 +157,7 @@ const cases = [
         id: 'operation-breakout-case',
         name: 'Operation Breakout Weapon Case',
         price: 2.80,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g7" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23ff0000"/%3E%3Cstop offset="100%25" style="stop-color:%23aa0000"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g7)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="95" font-family="Arial" font-size="14" font-weight="bold" fill="%23fff" text-anchor="middle"%3EBreakout%3C/text%3E%3Ctext x="100" y="115" font-family="Arial" font-size="12" fill="%23fff" text-anchor="middle"%3ECase%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Imc3IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmYwMDAwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojYWEwMDAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2c3KSIgeD0iMzAiIHk9IjUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjE1Ii8+PHRleHQgeD0iMTAwIiB5PSI5NSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QnJlYWtvdXQ8L3RleHQ+PHRleHQgeD0iMTAwIiB5PSIxMTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2FzZTwvdGV4dD48L3N2Zz4=',
         items: [
             { name: 'M4A1-S | Cyrex', rarity: 'Covert', price: 140.00 },
             { name: 'P90 | Asiimov', rarity: 'Covert', price: 88.00 },
@@ -181,7 +181,7 @@ const cases = [
         id: 'shadow-case',
         name: 'Shadow Case',
         price: 2.60,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g8" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23333"/%3E%3Cstop offset="100%25" style="stop-color:%23000"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g8)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="18" font-weight="bold" fill="%23fff" text-anchor="middle"%3EShadow%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Imc4IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMzMzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2c4KSIgeD0iMzAiIHk9IjUwIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjEwMCIgcng9IjE1Ii8+PHRleHQgeD0iMTAwIiB5PSIxMDUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNoYWRvdzwvdGV4dD48L3N2Zz4=',
         items: [
             { name: 'SSG 08 | Blood in the Water', rarity: 'Covert', price: 195.00 },
             { name: 'M4A1-S | Golden Coil', rarity: 'Covert', price: 115.00 },
@@ -205,7 +205,7 @@ const cases = [
         id: 'spectrum-case',
         name: 'Spectrum Case',
         price: 2.95,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g9" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23ff00ff"/%3E%3Cstop offset="50%25" style="stop-color:%2300ffff"/%3E%3Cstop offset="100%25" style="stop-color:%23ffff00"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g9)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="16" font-weight="bold" fill="%23000" text-anchor="middle"%3ESpectrum%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9Imc5IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmYwMGZmIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMGZmZmYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmZmZmMDAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCBmaWxsPSIjMWIyODM4IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIvPjxyZWN0IGZpbGw9InVybCgjZzkpIiB4PSIzMCIgeT0iNTAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTAwIiByeD0iMTUiLz48dGV4dCB4PSIxMDAiIHk9IjEwNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+U3BlY3RydW08L3RleHQ+PC9zdmc+',
         items: [
             { name: 'AK-47 | Bloodsport', rarity: 'Covert', price: 165.00 },
             { name: 'USP-S | Neo-Noir', rarity: 'Covert', price: 105.00 },
@@ -229,7 +229,7 @@ const cases = [
         id: 'spectrum-2-case',
         name: 'Spectrum 2 Case',
         price: 2.85,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g10" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23ffff00"/%3E%3Cstop offset="50%25" style="stop-color:%2300ff00"/%3E%3Cstop offset="100%25" style="stop-color:%230000ff"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g10)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="95" font-family="Arial" font-size="14" font-weight="bold" fill="%23000" text-anchor="middle"%3ESpectrum 2%3C/text%3E%3Ctext x="100" y="115" font-family="Arial" font-size="12" fill="%23000" text-anchor="middle"%3ECase%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxMCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmZmYwMCIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDBmZjAwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMGZmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0iIzFiMjgzOCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48cmVjdCBmaWxsPSJ1cmwoI2cxMCkiIHg9IjMwIiB5PSI1MCIgd2lkdGg9IjE0MCIgaGVpZ2h0PSIxMDAiIHJ4PSIxNSIvPjx0ZXh0IHg9IjEwMCIgeT0iOTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwMDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNwZWN0cnVtIDI8L3RleHQ+PHRleHQgeD0iMTAwIiB5PSIxMTUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2FzZTwvdGV4dD48L3N2Zz4=',
         items: [
             { name: 'AK-47 | The Empress', rarity: 'Covert', price: 175.00 },
             { name: 'M4A1-S | Leaded Glass', rarity: 'Classified', price: 68.00 },
@@ -252,7 +252,7 @@ const cases = [
         id: 'prisma-case',
         name: 'Prisma Case',
         price: 3.40,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g11" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23ff1493"/%3E%3Cstop offset="100%25" style="stop-color:%239370db"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g11)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="18" font-weight="bold" fill="%23fff" text-anchor="middle"%3EPrisma%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxMSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmMTQ5MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzkzNzBkYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9IiMxYjI4MzgiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIi8+PHJlY3QgZmlsbD0idXJsKCNnMTEpIiB4PSIzMCIgeT0iNTAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTAwIiByeD0iMTUiLz48dGV4dCB4PSIxMDAiIHk9IjEwNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UHJpc21hPC90ZXh0Pjwvc3ZnPg==',
         items: [
             { name: 'AWP | Atheris', rarity: 'Covert', price: 205.00 },
             { name: 'M4A4 | The Emperor', rarity: 'Covert', price: 135.00 },
@@ -276,7 +276,7 @@ const cases = [
         id: 'danger-zone-case',
         name: 'Danger Zone Case',
         price: 2.45,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g12" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23ff4500"/%3E%3Cstop offset="100%25" style="stop-color:%23ffa500"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g12)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="95" font-family="Arial" font-size="14" font-weight="bold" fill="%23000" text-anchor="middle"%3EDanger Zone%3C/text%3E%3Ctext x="100" y="115" font-family="Arial" font-size="12" fill="%23000" text-anchor="middle"%3ECase%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxMiIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmNDUwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2ZmYTUwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9IiMxYjI4MzgiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIi8+PHJlY3QgZmlsbD0idXJsKCNnMTIpIiB4PSIzMCIgeT0iNTAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTAwIiByeD0iMTUiLz48dGV4dCB4PSIxMDAiIHk9Ijk1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5EYW5nZXIgWm9uZTwvdGV4dD48dGV4dCB4PSIxMDAiIHk9IjExNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DYXNlPC90ZXh0Pjwvc3ZnPg==',
         items: [
             { name: 'AK-47 | Asiimov', rarity: 'Covert', price: 220.00 },
             { name: 'AWP | Neo-Noir', rarity: 'Covert', price: 145.00 },
@@ -300,7 +300,7 @@ const cases = [
         id: 'clutch-case',
         name: 'Clutch Case',
         price: 2.55,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g13" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23daa520"/%3E%3Cstop offset="100%25" style="stop-color:%23b8860b"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g13)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="18" font-weight="bold" fill="%23000" text-anchor="middle"%3EClutch%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxMyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I2RhYTUyMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2I4ODYwYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9IiMxYjI4MzgiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIi8+PHJlY3QgZmlsbD0idXJsKCNnMTMpIiB4PSIzMCIgeT0iNTAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTAwIiByeD0iMTUiLz48dGV4dCB4PSIxMDAiIHk9IjEwNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2x1dGNoPC90ZXh0Pjwvc3ZnPg==',
         items: [
             { name: 'M4A4 | Neo-Noir', rarity: 'Covert', price: 185.00 },
             { name: 'USP-S | Cortex', rarity: 'Classified', price: 80.00 },
@@ -323,7 +323,7 @@ const cases = [
         id: 'horizon-case',
         name: 'Horizon Case',
         price: 2.70,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g14" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%2387ceeb"/%3E%3Cstop offset="100%25" style="stop-color:%234682b4"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g14)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="18" font-weight="bold" fill="%23000" text-anchor="middle"%3EHorizon%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxNCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6Izg3Y2VlYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzQ2ODJiNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9IiMxYjI4MzgiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIi8+PHJlY3QgZmlsbD0idXJsKCNnMTQpIiB4PSIzMCIgeT0iNTAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTAwIiByeD0iMTUiLz48dGV4dCB4PSIxMDAiIHk9IjEwNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+SG9yaXpvbjwvdGV4dD48L3N2Zz4=',
         items: [
             { name: 'AK-47 | Neon Rider', rarity: 'Covert', price: 195.00 },
             { name: 'Desert Eagle | Code Red', rarity: 'Covert', price: 125.00 },
@@ -347,7 +347,7 @@ const cases = [
         id: 'glove-case',
         name: 'Glove Case',
         price: 3.50,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g15" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%238b4513"/%3E%3Cstop offset="100%25" style="stop-color:%23a0522d"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g15)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="18" font-weight="bold" fill="%23fff" text-anchor="middle"%3EGlove%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxNSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzhiNDUxMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2EwNTIyZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9IiMxYjI4MzgiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIi8+PHJlY3QgZmlsbD0idXJsKCNnMTUpIiB4PSIzMCIgeT0iNTAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTAwIiByeD0iMTUiLz48dGV4dCB4PSIxMDAiIHk9IjEwNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+R2xvdmU8L3RleHQ+PC9zdmc+',
         items: [
             { name: 'M4A4 | Emperor', rarity: 'Covert', price: 215.00 },
             { name: 'AWP | Fever Dream', rarity: 'Covert', price: 155.00 },
@@ -371,7 +371,7 @@ const cases = [
         id: 'revolver-case',
         name: 'Revolver Case',
         price: 2.35,
-        image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Cdefs%3E%3ClinearGradient id="g16" x1="0%25" y1="0%25" x2="100%25" y2="100%25"%3E%3Cstop offset="0%25" style="stop-color:%23696969"/%3E%3Cstop offset="100%25" style="stop-color:%23a9a9a9"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill="%231b2838" width="200" height="200"/%3E%3Crect fill="url(%23g16)" x="30" y="50" width="140" height="100" rx="15"/%3E%3Ctext x="100" y="105" font-family="Arial" font-size="16" font-weight="bold" fill="%23fff" text-anchor="middle"%3ERevolver%3C/text%3E%3C/svg%3E',
+        image: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImcxNiIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzY5Njk2OSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2E5YTlhOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9IiMxYjI4MzgiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIi8+PHJlY3QgZmlsbD0idXJsKCNnMTYpIiB4PSIzMCIgeT0iNTAiIHdpZHRoPSIxNDAiIGhlaWdodD0iMTAwIiByeD0iMTUiLz48dGV4dCB4PSIxMDAiIHk9IjEwNSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UmV2b2x2ZXI8L3RleHQ+PC9zdmc+',
         items: [
             { name: 'M4A1-S | Hyper Beast', rarity: 'Covert', price: 175.00 },
             { name: 'R8 Revolver | Fade', rarity: 'Covert', price: 105.00 },
