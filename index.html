@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS:GO Case Opener</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    
+    <div class="container">
+        <header>
+            <h1>CS:GO CASE OPENER</h1>
+            <div class="balance">
+                <span class="balance-label">BALANCE:</span>
+                <span class="balance-amount">$<span id="balance">10000.00</span></span>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Case Selection -->
+            <div class="case-selection" id="caseSelection">
+                <h2>SELECT A CASE</h2>
+                <div class="cases-grid" id="casesGrid">
+                    <!-- Cases will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Case Opening View -->
+            <div class="case-opening" id="caseOpening" style="display: none;">
+                <button class="back-button" id="backButton">← BACK TO CASES</button>
+                
+                <div class="case-info">
+                    <img id="selectedCaseImage" src="" alt="Case">
+                    <h2 id="selectedCaseName"></h2>
+                    <p class="case-price">Price: $<span id="selectedCasePrice"></span></p>
+                </div>
+
+                <div class="opening-area">
+                    <div class="reel-container">
+                        <div class="selection-marker"></div>
+                        <div class="reel" id="reel">
+                            <!-- Items will be populated here during opening -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-display" id="resultDisplay" style="display: none;">
+                    <div class="result-content">
+                        <div class="result-item">
+                            <img id="resultImage" src="" alt="Item">
+                            <h3 id="resultName"></h3>
+                            <p id="resultRarity"></p>
+                            <p class="result-price">$<span id="resultPrice"></span></p>
+                        </div>
+                        <div class="result-actions">
+                            <button class="open-again-button" id="openAgainButton">OPEN ANOTHER</button>
+                            <button class="change-case-button" id="changeCaseButton">CHANGE CASE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="open-case-button" id="openCaseButton">
+                    OPEN CASE
+                </button>
+            </div>
+        </div>
+
+        <footer>
+            <p>This is a simulation. Not affiliated with Valve Corporation or CS:GO.</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
